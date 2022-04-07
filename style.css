@@ -2,7 +2,7 @@ body {
   background-color: #1D3557; /* Couleur de fond du site */
 }
 
-p {
+p, i {
   color: #F1FAEE; /* Couleur des paragraphes */
   font-family: 'Open Sans', sans-serif;
   text-align: center; /* Justifie les paragraphes */
