@@ -1,0 +1,91 @@
+* {
+  margin: 1px;
+  padding: 3px;
+}
+
+body {
+  background-color: #1D3557; /* Couleur de fond du site */
+}
+
+p {
+  color: #F1FAEE; /* Couleur des paragraphes */
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify; /* Justifie les paragraphes */
+  font-size: 20px;
+  height: auto;
+  width: auto;
+}
+
+ul li {
+  color: #F1FAEE; /* Couleur de la liste dans la partie Lecture et écriture */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  color: #457D9B; /* Couleur du titre */
+  font-size: 60px;
+  height: auto;
+  width: auto;
+}
+
+h3 {
+  color: #A8DADC; /* Couleur des titres du sommaire */
+  font-size: 40px;
+  height: auto;
+  width: auto;
+}
+
+nav ol {
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  background-color: #457D9B;
+	display: table;
+	width: 100%;
+}
+
+ol li {
+  list-style-type: none; /* Enlève les nombres de la liste ordonnée */
+  text-align: center;
+  height: 60px;
+}
+
+nav li {
+  display: table-cell;
+}
+
+li a {
+  color: #E63946; /* Couleur des boutons */
+  text-decoration: none; /* Enlève le souslignage des boutons */
+  font-family: 'Merriweather', sans-serif; /* Ajoute le fond 'Merriweather' sur les boutons */
+  font-size: 20px;
+  height: auto;
+  width: auto;
+  display: block;
+  padding: 30px 30px;
+}
+
+li a:hover {
+  background-color: #A8DADC;
+}
+
+h1, h3 {
+  text-align: center; /* Remet les titres au milieu de la page web */
+  font-family: 'Roboto', sans-serif;
+}
+
+.end {
+  text-align: center;
+}
+
+img {
+  width: 240px;
+  height: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
