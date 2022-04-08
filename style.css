@@ -90,3 +90,16 @@ div ol li {
   padding: 20px;
   background-color: black;
 }
+
+#contact {
+  text-align: center;
+}
+
+i {
+  padding: 25px;
+}
+
+i:hover {
+  background-color: #457D9B;
+  border-radius: 10px;
+}
